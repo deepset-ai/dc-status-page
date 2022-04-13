@@ -1,5 +1,5 @@
 ---
-title: Major outage for pipeline deployment
+title: Minor outage for pipeline deployment
 date: 2022-04-13 15:30:00
 resolved: false
 resolvedWhen: 2022-04-22 14:30:00
