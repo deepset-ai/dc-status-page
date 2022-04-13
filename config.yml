@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: deepset Cloud status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -143,10 +143,6 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
-      closed: true
-    - name: Empty Category
     - name: Uncategorized
       untitled: true
 
@@ -158,21 +154,19 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
-    - name: Website
+    - name: Frontend
       description: The web frontend for the application.
       category: Uncategorized
-      link: https://example.com/
     - name: API
       description: The guts of the application.
       category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+    - name: Indexing
+      description: Pipeline indexing
       category: Uncategorized
-
+    - name: Deployment
+      description: Pipeline deployment
+      category: Uncategorized
+    
   # What date format to use?
   #
   # Hugo formatting docs:
