@@ -9,7 +9,7 @@ permissions:
     pull-requests: write
     contents: write
     id-token: write
-    
+
 jobs:
   deploy:
     runs-on: ubuntu-20.04
@@ -35,4 +35,4 @@ jobs:
         if: ${{ github.ref == 'refs/heads/master' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./
