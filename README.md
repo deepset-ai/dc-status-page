@@ -23,16 +23,16 @@ You can find a list of available services within the [config.yml](/config.yml) a
 Pushing changes to master will deploy the latest status page.
 
 
---------- cCtate page information --------------------
+## Development
 
-# cState Site v5.0.5
+### cState Site v5.0.5
 
 This is the default cState status page website directory/folder.
 
 * Example site repository link (you are here): https://github.com/cstate/example
 * Main cState source code repository: https://github.com/cstate/cstate
 
-## Are you updating? Use these commands
+#### Are you updating? Use these commands
 
 Download your site with all the directories. `git clone --recursive <your repo link goes here>`
 
@@ -43,7 +43,7 @@ In the parent directory, type `hugo serve`. Check to see if everything is workin
 Then do `git add -A; git commit -m "Update cState"; git push origin <branch, probably main or master>`. Your status page is now updated and uploaded.
 
 
-## For maintainers (probably not for you)
+#### For maintainers (probably not for you)
 
 Maintainers need to update both cstate/cstate and cstate/example for each new version.
 
@@ -55,6 +55,6 @@ Update the cState theme submodule. `git submodule foreach git pull origin master
 
 Then push `git add -A; git commit -m "Update cState vX.X.X"; git push origin master`.
 
-## License
+#### License
 
 MIT © Mantas Vilčinskas
