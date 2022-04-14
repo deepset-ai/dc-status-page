@@ -1,3 +1,30 @@
+# Deepset Cloud status page
+
+We use cState to communicate the status of deepset Cloud to our customers. If we want to report an issue we need to create a markdown file
+within [this](/content/issues/) directory using the name `YEAR-MONTH-DAY-topic.md`. This Markdown must contain a header that contains 
+a couple of attributes that are used to render the current status: 
+
+```
+---
+title: Title of the issue (e.g. Pipeline deployment reports unhealthy states)
+date: 2022-04-13 15:30:00 
+resolved: false
+resolvedWhen: 2022-04-22 14:30:00  # auto resolve at 2022-04-22 14:30:00
+severity: disrupted # there are multiple severity states (disrupted, down, ...)
+affected:  # this list contains the affected services 
+  - API    
+section: issue
+---
+```
+
+
+You can find a list of available services within the [config.yml](/config.yml) and a list of severitys within the cState docs.
+
+Pushing changes to master will deploy the latest status page.
+
+
+--------- cCtate page information --------------------
+
 # cState Site v5.0.5
 
 This is the default cState status page website directory/folder.
