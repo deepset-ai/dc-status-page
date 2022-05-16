@@ -1,10 +1,10 @@
 ---
-title: Issues Sending DMs
+title: Issues Deploying pipelines
 date: 2022-05-22 16:00:00
 resolved: true
 resolvedWhen: 2022-05-22 17:40:00
 # Possible severity levels: down, disrupted, notice
-severity: disrupted
+severity: down
 affected:
   - Deployment
 section: issue
